@@ -32,17 +32,6 @@ def create_task(task: TaskCreate):
     return task_service.CreateTask(task)
 
 
-# if __name__ == "__main__":
-#     # Quick smoke test when run as a script (doesn't start a server).
-#     created = task_service.CreateTask(
-#         TaskCreate(
-#             title="Finish project",
-#             description="Complete the FastAPI project",
-#             priority=1,
-#             completed=False,
-#         )
-#     )
-#     print(created)
 print("Running quick test...")
 print("=" *129)
 check = task_service.CreateTask(
