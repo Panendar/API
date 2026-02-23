@@ -1,4 +1,4 @@
-# API
+# API 
 
 A small FastAPI playground with two example apps:
 
@@ -49,3 +49,5 @@ curl -X POST http://127.0.0.1:8000/tasks \
   -H "Content-Type: application/json" \
   -d '{"name":"Learn FastAPI","description":"Build sample API","completed":false}'
 ```
+# DATABASE API'S
+USING API'S to PERFORM CRUD OPERATIONS
